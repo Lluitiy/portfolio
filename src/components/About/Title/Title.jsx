@@ -8,7 +8,7 @@ export const Title = () => {
 				<Accent>Hi</Accent>, my name is Pavlo
 			</Heading>
 			<HeadingText>
-				I am a Front End <Accent>Developer</Accent>
+				I am a Full Stack <Accent>Developer</Accent>
 			</HeadingText>
 		</TextWrapper>
 	);

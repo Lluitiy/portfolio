@@ -1,7 +1,8 @@
+import { Button } from '../../Shared/Shared.styled';
 import { ButtonsStyles } from './Buttons.styled';
 
 export const Buttons = () => {
-	const { ButtonsWrapper, Button } = ButtonsStyles;
+	const { ButtonsWrapper } = ButtonsStyles;
 	return (
 		<ButtonsWrapper>
 			<Button href="#projects">projects</Button>
