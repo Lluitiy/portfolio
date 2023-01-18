@@ -1,8 +1,12 @@
 import styled from '@emotion/styled';
 
 export const HeaderComponent = styled.header`
+	top: 0;
+	left: 0;
+	position: sticky;
+	z-index: 1100;
 	padding: 32px 0px;
-	background-color: ${p => p.theme.colors.backgroundDefault};
+	background-color: rgba(13, 17, 23, 0.9);
 `;
 
 export const HeaderWrapper = styled.div`
