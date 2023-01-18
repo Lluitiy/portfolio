@@ -18,9 +18,21 @@ export const HeaderWrapper = styled.div`
 	padding: 0px 16px;
 	width: 1280px;
 `;
+
+export const Contacts = styled.div`
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+	gap: 8px;
+`;
 export const Hire = styled.a`
-	font-weight: 500;
-	font-size: 24px;
+	font-weight: 400;
+	font-size: 12px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 8px;
 	color: ${p => p.theme.colors.text};
 	transition: ${p => p.theme.transition.primary};
 
