@@ -7,7 +7,7 @@ export const Header = () => {
 		<HeaderComponent>
 			<HeaderWrapper>
 				<NavBar />
-				<Hire href="#hire">Hire Me</Hire>
+				{/* <Hire href="#hire">Hire Me</Hire> */}
 			</HeaderWrapper>
 		</HeaderComponent>
 	);

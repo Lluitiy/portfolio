@@ -6,7 +6,7 @@ export const Buttons = () => {
 	return (
 		<ButtonsWrapper>
 			<Button href="#projects">projects</Button>
-			<Button href="#hire">contact me</Button>
+			<Button href="mailto: pavlovovzhynskyy@gmail.com">contact me</Button>
 		</ButtonsWrapper>
 	);
 };

@@ -13,10 +13,10 @@ export const App = () => {
 				<About />
 				<Projects />
 				<Skills />
-				<Contact />
+				{/* <Contact />
 				<footer>
 					<Footer />
-				</footer>
+				</footer> */}
 			</main>
 		</>
 	);

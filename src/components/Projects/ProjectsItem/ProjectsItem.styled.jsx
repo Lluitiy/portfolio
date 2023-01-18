@@ -38,7 +38,6 @@ const MetaDescription = styled.p`
 `;
 
 const TechHeading = styled.h4`
-	/* margin: 0px auto; */
 	font-weight: 500;
 	font-size: 24px;
 	letter-spacing: 0.04em;
