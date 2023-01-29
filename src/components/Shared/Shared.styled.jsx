@@ -1,8 +1,8 @@
 import styled from '@emotion/styled';
 
 export const Section = styled.div`
+	position: relative;
 	padding: 48px 0px;
-
 	background: #0d1117;
 
 	:nth-of-type(2n) {
@@ -18,6 +18,9 @@ export const Section = styled.div`
 			rgb(13, 17, 23, 1) 15%,
 			rgb(15, 56, 79, 1) 78%
 		);
+	}
+	:not():nth-last-of-type() {
+		min-height: 500px;
 	}
 `;
 

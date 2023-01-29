@@ -4,4 +4,6 @@ export const AboutWrapper = styled.div`
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	position: relative;
+	z-index: 10;
 `;
