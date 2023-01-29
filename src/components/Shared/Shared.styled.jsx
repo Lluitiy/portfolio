@@ -19,7 +19,7 @@ export const Section = styled.div`
 			rgb(15, 56, 79, 1) 78%
 		);
 	}
-	:not():nth-last-of-type() {
+	:not(:last-of-type) {
 		min-height: 500px;
 	}
 `;
