@@ -2,7 +2,7 @@ import styled from '@emotion/styled';
 
 export const Section = styled.div`
 	position: relative;
-	padding: 48px 0px;
+	padding: 60px 0px;
 	background: #0d1117;
 
 	:nth-of-type(2n) {

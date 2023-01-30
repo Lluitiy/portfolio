@@ -5,7 +5,7 @@ const ProjectList = styled.ul`
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	gap: 64px;
+	gap: 86px;
 `;
 
 export const styles = {

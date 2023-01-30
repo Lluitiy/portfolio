@@ -5,8 +5,17 @@ import movieFinder from '../assets/movies.png';
 import phoneBook from '../assets/phone-book.png';
 import iceCream from '../assets/icecream.png';
 import webStudio from '../assets/web-studio.png';
+import captur from '../assets/captur.png';
 
 export const projects = [
+	{
+		name: 'Captur',
+		picture: `${captur}`,
+		description:
+			'Stylish minimalistic web site as a blog/landing for a travel photographer. The simplicity of the site and the depth of the photos complement each other perfectly, making the use of the page user friendly. ',
+		tech: ['Next.js', 'Tailwind', 'Git', 'Vercel'],
+		link: 'https://captur-blue.vercel.app/',
+	},
 	{
 		name: 'Hoo Bank',
 		picture: `${hoobankimg}`,
