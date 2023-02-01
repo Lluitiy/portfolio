@@ -6,8 +6,17 @@ import phoneBook from '../assets/phone-book.png';
 import iceCream from '../assets/icecream.png';
 import webStudio from '../assets/web-studio.png';
 import captur from '../assets/captur.png';
+import dashboard from '../assets/dashboard.png';
 
 export const projects = [
+	{
+		name: 'Admin Panel',
+		picture: `${dashboard}`,
+		description:
+			'A comprehensive web application for the administration of your entire company with the ability to connect API queries to a remote server to create charts for the needs of your business, as well as add employees, upload data and authorization.',
+		tech: ['React', 'MUI', 'Nivo', 'Full Calendar', 'Git', 'Vite', 'Vercel'],
+		link: 'https://devpavlo-dashboard.netlify.app/',
+	},
 	{
 		name: 'Captur',
 		picture: `${captur}`,
