@@ -7,8 +7,17 @@ import iceCream from '../assets/icecream.png';
 import webStudio from '../assets/web-studio.png';
 import captur from '../assets/captur.png';
 import dashboard from '../assets/dashboard.png';
+import dalle from '../assets/dalle.png';
 
 export const projects = [
+	{
+		name: 'Dalle Clone',
+		picture: `${dalle}`,
+		description:
+			'An application created using OpenAI`s artificial intelligence API to generate images from a string and the ability to download and share the resulting image ',
+		tech: ['React', 'OpenAI', 'MongoDB', 'Cloudinary', 'Git', 'Vite'],
+		link: 'https://dall-eclone.netlify.app',
+	},
 	{
 		name: 'Admin Panel',
 		picture: `${dashboard}`,
