@@ -7,9 +7,13 @@ export const Meta = () => {
 	return (
 		<MetaWrapper>
 			<MetaText>
-				React is my blood, code is my love. Web development and application
-				engineering are what bring me pleasure and enjoyment. If I take on a
-				case you can be sure of an excellent result.
+				As a Full Stack Developer, I bring a broad range of technical skills to
+				the table, including expertise in both front-end and back-end
+				development. My experience spans across various programming languages,
+				frameworks, and technologies, including React, Next.js, Node.js, and
+				MongoDB. With a deep passion for delivering clean and efficient code, I
+				always strive to create robust, scalable, and user-friendly applications
+				that meet the needs of both clients and end-users.
 			</MetaText>
 			<Buttons />
 		</MetaWrapper>

@@ -11,7 +11,7 @@ export const MetaText = styled.p`
 	display: block;
 	width: 500px;
 	font-weight: 400;
-	font-size: 24px;
+	font-size: 18px;
 	line-height: 1.3;
 	letter-spacing: 0.04em;
 	color: ${p => p.theme.colors.text};

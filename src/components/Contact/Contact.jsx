@@ -3,9 +3,8 @@ import { Container, Section } from '../Shared/Shared.styled';
 import { styles } from './Contact.module';
 
 export const Contact = () => {
-	const { Links, Link, LinkedInIcon, GitHubIcon, UpWorkIcon, CodewarsIcon } =
-		styles;
-		
+	const { Links, Link, LinkedInIcon, GitHubIcon, CodewarsIcon } = styles;
+
 	return (
 		<Section id="socials">
 			<Container>
@@ -28,7 +27,7 @@ export const Contact = () => {
 							<GitHubIcon />
 						</a>
 					</Link>
-					<Link>
+					{/* <Link>
 						<a
 							href="https://www.upwork.com/freelancers/~01afca39d0e811cd39"
 							target="_blank"
@@ -36,7 +35,7 @@ export const Contact = () => {
 						>
 							<UpWorkIcon />
 						</a>
-					</Link>
+					</Link> */}
 					<Link>
 						<a
 							href="https://www.codewars.com/users/Lluitiy/stats"
