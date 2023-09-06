@@ -5,16 +5,17 @@ import iceCream from '../assets/icecream.png';
 import captur from '../assets/captur.png';
 import dashboard from '../assets/dashboard.png';
 import dalle from '../assets/dalle.png';
+// {
+// 		name: 'Dalle Clone',
+// 		picture: `${dalle}`,
+// 		description:
+// 			'An application created using artificial intelligence with the help of the OpenAI API. This allows the user an opportunity to create an image using a neural network and share it with other users who have previously created images that are stored in the database.',
+// 		tech: ['React', 'OpenAI', 'MongoDB', 'Cloudinary', 'Git', 'Vite'],
+// 		link: 'https://dall-eclone.netlify.app',
+// 	},
 
 export const projects = [
-	{
-		name: 'Dalle Clone',
-		picture: `${dalle}`,
-		description:
-			'An application created using artificial intelligence with the help of the OpenAI API. This allows the user an opportunity to create an image using a neural network and share it with other users who have previously created images that are stored in the database.',
-		tech: ['React', 'OpenAI', 'MongoDB', 'Cloudinary', 'Git', 'Vite'],
-		link: 'https://dall-eclone.netlify.app',
-	},
+	
 	{
 		name: 'Admin Panel',
 		picture: `${dashboard}`,
